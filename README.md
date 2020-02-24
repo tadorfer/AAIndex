@@ -34,7 +34,7 @@ $ df_aa1.to_csv('aaindex1.csv', index=False)
 $ df_aa2.to_csv('aaindex2.csv', index=False)
 $ df_aa3.to_csv('aaindex3.csv', index=False)
 ```
-
+## Demonstration
 #### Before (Raw)
 
 <p align="center">
@@ -44,5 +44,5 @@ $ df_aa3.to_csv('aaindex3.csv', index=False)
 #### After (DataFrame)
 
 <p align="center">
-  <img src="/imgs/after.png" height="300" width="700">
+  <img src="/imgs/after.png" height="300" width="750">
 </p>
