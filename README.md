@@ -20,5 +20,5 @@ While AAIndices 1 & 3 contain exactly 20 rows and 20 columns (each corresponding
 #### After (DataFrame)
 
 <p align="center">
-  <img src="/imgs/after.png" height="500" width="650">
+  <img src="/imgs/after.png" height="300" width="650">
 </p>
