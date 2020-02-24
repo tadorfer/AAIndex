@@ -1,6 +1,6 @@
 # AAIndex: raw --> dataframe
 
-This repository is for converting raw AAIndex data, as provided by [GenomeNet](genome.jp/aaindex/), into a more useable, Python-friendly dataframe.
+This repository is for converting raw AAIndex data, as provided by [GenomeNet](https://www.genome.jp/aaindex/), into a more useable, Python-friendly dataframe.
 The current version of the AAIndex database is v9.2, which was last updated in 2017. 
 <br>
 
