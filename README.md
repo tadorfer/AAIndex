@@ -16,11 +16,11 @@ While AAIndices 1 & 3 contain exactly 20 rows and 20 columns (each corresponding
 #### Before (Raw)
 
 <p align="center">
-  <img src="/data/before.png" height="700" width="650">
+  <img src="/imgs/before.png" height="700" width="650">
 </p>
 
 #### After (DataFrame)
 
 <p align="center">
-  <img src="/data/after.png" height="700" width="650">
+  <img src="/imgs/after.png" height="700" width="650">
 </p>
