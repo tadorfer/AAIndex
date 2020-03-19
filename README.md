@@ -21,18 +21,18 @@ While AAIndices 1 & 3 contain exactly 20 rows and 20 columns (each corresponding
 
 The functions in the script <i>raw_to_df.py</i> can be executed as follows (given the same directory tree as in this repository is used):
 
-```
-$ from raw_to_df import conversion_aa1, conversion_aa2, conversion_aa3
+```python
+from raw_to_df import conversion_aa1, conversion_aa2, conversion_aa3
 
 # execute functions
-$ df_aa1 = conversion_aa1('data/aaindex1.txt')
-$ df_aa2 = conversion_aa2('data/aaindex2.txt')
-$ df_aa3 = conversion_aa3('data/aaindex3.txt')
+df_aa1 = conversion_aa1('data/aaindex1.txt')
+df_aa2 = conversion_aa2('data/aaindex2.txt')
+df_aa3 = conversion_aa3('data/aaindex3.txt')
 
 # save as .csv
-$ df_aa1.to_csv('aaindex1.csv', index=False)
-$ df_aa2.to_csv('aaindex2.csv', index=False)
-$ df_aa3.to_csv('aaindex3.csv', index=False)
+df_aa1.to_csv('aaindex1.csv', index=False)
+df_aa2.to_csv('aaindex2.csv', index=False)
+df_aa3.to_csv('aaindex3.csv', index=False)
 ```
 ## Demonstration
 #### Before (Raw)
@@ -44,5 +44,5 @@ $ df_aa3.to_csv('aaindex3.csv', index=False)
 #### After (DataFrame)
 
 <p align="center">
-  <img src="/imgs/after.png" height="300" width="750">
+  <img src="/imgs/after.png" height="300" width="800">
 </p>
